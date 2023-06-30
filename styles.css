@@ -89,3 +89,36 @@ body
     border-radius: 50%;
     object-fit: cover;
 } 
+.main-container{
+    width: 70%;
+    text-align: center;
+    padding: 0.5rem;
+}
+.input-flex{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #40414f;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    margin: 1rem auto;
+    position: absolute;
+    bottom: 0;
+    left: 30%
+}
+.input-flex input{
+    background-color: #40414f;
+    border: 0;
+    color: #ececf1;
+    font-family: "Roboto","Sans-Serif";
+    width: 100%;
+    padding: 0.5rem 0rem;
+    margin-right: 1rem;
+}
+.input-flex input:focus{
+    outline: none;
+}
+.input-flex input:placeholder{
+    color: #8e8e9f;
+}
